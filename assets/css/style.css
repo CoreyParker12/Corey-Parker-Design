@@ -314,7 +314,7 @@ img.image-styling {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
 
   #header-back {
     height: 270px;
@@ -334,6 +334,10 @@ img.image-styling {
 
   .sidebar-left {
     margin: 20px 0 20px 0;
+  }
+
+  #footer {
+    height: 80px;
   }
 
 }
