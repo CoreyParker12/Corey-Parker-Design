@@ -26,8 +26,6 @@ body {
   padding-bottom: 80px;
 }
 
-
-
 /**************************************************/
 /********************* HEADER *********************/
 /**************************************************/
@@ -81,8 +79,8 @@ a.navbar-style:hover {
   display: flex;
   align-items: center;
   min-width: 220px;
-  padding: 20px 20px 20px 20px;
-  margin: 20px 20px 20px 0;
+  padding: 20px 0 20px 0;
+  margin: 20px 10px 20px 0;
   border-right: solid 5px;
 }
 
@@ -123,12 +121,12 @@ a.navbar-style:hover {
 /* Image border styling */
 
 img.image-styling {
- width: 100%;
- border-style: solid;
- border-width: 12px 12px 50px 12px;
- border-color: #7e7e7e;
- border-radius: 5px;
- box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 4%);
+  width: 100%;
+  border-style: solid;
+  border-width: 12px 12px 50px 12px;
+  border-color: #7e7e7e;
+  border-radius: 5px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 4%);
 }
 
 /* Image text styling */
@@ -154,8 +152,8 @@ img.image-styling {
 }
 
 .github-links {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .github-links:visited {
@@ -204,7 +202,6 @@ img.image-styling {
   padding-top: 5px;
 }
 
-
 /***************************************************/
 /********************* RESPONSIVE ******************/
 /***************************************************/
@@ -243,11 +240,11 @@ img.image-styling {
 
   /* Sizing doen content */
 
-   .regular-content {
-      flex: 80%;
-      margin: 20px 20px 20px 20px ;
-      font-size: 14px;
-      line-height: 150%;
+  .regular-content {
+    flex: 80%;
+    margin: 20px 20px 20px 20px ;
+    font-size: 14px;
+    line-height: 150%;
   }   
 }
 
@@ -305,16 +302,16 @@ img.image-styling {
   img.image-styling {
       border-width: 8px 8px 50px 8px;
       height: auto;
-   }
-   
-   .portfolio-text-style {
+    }
+
+  .portfolio-text-style {
       bottom: 40px;
       padding: 0 0 0 10px;
-   }
-   
-   .portfolio-text-style p {
+  }
+
+  .portfolio-text-style p {
       font-size: 18px;
-   }
+  }
 }
 
 @media screen and (max-width: 600px) {
